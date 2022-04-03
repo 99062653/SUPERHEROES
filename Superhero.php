@@ -6,6 +6,20 @@ class Superhero {
     public $team;
     public $oneline;
 
+    public $randomwords = array(
+     "into",
+     "want",
+     "egg",
+     "adult",
+     "midnight",
+     "company",
+     "thing",
+     "valve",
+     "become",
+     "youth",
+     "kite",
+     "casual");
+
     public function __construct($name, $gender, $team, $oneliner)
     {
         $this->name = $name;
